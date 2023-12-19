@@ -1,0 +1,25 @@
+.sidebar-and-content {
+    display: grid;
+    grid-template-columns: minmax(100px, 300px) 1fr;
+    grid-template-areas: "sidebar content";
+    column-gap: 8px;
+
+    & > * {
+        padding: 8px;
+    }
+    .sidebar {
+        grid-area: sidebar;
+        background-color: lightblue;
+    }
+    .content {
+        grid-area: content;
+    }
+}
+
+.popup {
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    border: thin dashed grey;
+    padding: 8px;
+}

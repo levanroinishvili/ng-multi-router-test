@@ -1,0 +1,6 @@
+<p>menu</p>
+<div style="display: grid; grid-auto-flow: column; gap: 8px">
+  <a [routerLink]="['/', { outlets: { sidebar: [] } }]">Menu Home</a>
+  <a [routerLink]="['user']">Menu: user</a>
+</div>
+<multi-menu-inner />

@@ -1,0 +1,18 @@
+<p>menu-inner works!</p>
+<div style="display: grid; grid-auto-flow: column; gap: 8px">
+  <a [routerLink]="['/', { outlets: { primary: [] } }]">Home primary</a>
+  <a
+    [routerLink]="['/', { outlets: { sidebar: [] } }]"
+    routerLinkActive="active"
+    >Menu Home</a
+  >
+  <a
+    [routerLink]="['user']"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: false }"
+    >User</a
+  >
+  <a [routerLink]="['super-user']" routerLinkActive="active">Super User</a>
+</div>
+<hr />
+<router-outlet />

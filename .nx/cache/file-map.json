@@ -53,11 +53,35 @@
       },
       {
         "file": ".eslintrc.json",
-        "hash": "4061986240748079452"
+        "hash": "10215638876539522455"
       },
       {
         "file": ".gitignore",
         "hash": "13044518069027839699"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "15616160755317054594"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "15408881019685543206"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "1829709814351970143"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "12786614315176946387"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "18375610443702117185"
+      },
+      {
+        "file": ".prettierrc.json",
+        "hash": "10376962929549881647"
       },
       {
         "file": ".vscode/extensions.json",
@@ -66,6 +90,10 @@
       {
         "file": ".vscode/launch.json",
         "hash": "17038929134016848735"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "10893701766545065002"
       },
       {
         "file": ".vscode/tasks.json",
@@ -77,15 +105,15 @@
       },
       {
         "file": "angular.json",
-        "hash": "4468269472017821600"
+        "hash": "12494442778360457719"
       },
       {
         "file": "package-lock.json",
-        "hash": "14306318896360038169"
+        "hash": "12426228124920745228"
       },
       {
         "file": "package.json",
-        "hash": "12931629394196619402"
+        "hash": "8409769089493723007"
       },
       {
         "file": "server.ts",
@@ -93,7 +121,7 @@
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "6880513722212066549"
+        "hash": "12645038427119097405"
       },
       {
         "file": "src/app/app.component.scss",
@@ -101,19 +129,63 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "15760272205088782791"
+        "hash": "7382352215961076262"
       },
       {
         "file": "src/app/app.config.server.ts",
-        "hash": "14750464052796800194"
+        "hash": "472700109066692288"
       },
       {
         "file": "src/app/app.config.ts",
-        "hash": "11821239874568871925"
+        "hash": "747717603660994233"
       },
       {
         "file": "src/app/app.routes.ts",
         "hash": "12397496131277534773"
+      },
+      {
+        "file": "src/app/frame/frame.component.html",
+        "hash": "6581261667174369834"
+      },
+      {
+        "file": "src/app/frame/frame.component.scss",
+        "hash": "2685209085608793917"
+      },
+      {
+        "file": "src/app/frame/frame.component.ts",
+        "hash": "9976405999909236487"
+      },
+      {
+        "file": "src/app/joke/joke.component.html",
+        "hash": "6574974915552514105"
+      },
+      {
+        "file": "src/app/joke/joke.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/joke/joke.component.ts",
+        "hash": "4669402532231554496"
+      },
+      {
+        "file": "src/app/joke.service.ts",
+        "hash": "2398862320390240418"
+      },
+      {
+        "file": "src/app/models.ts",
+        "hash": "8662144145386173278"
+      },
+      {
+        "file": "src/app/popup/popup.component.html",
+        "hash": "4384887059426298349"
+      },
+      {
+        "file": "src/app/popup/popup.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/popup/popup.component.ts",
+        "hash": "18368916451852142634"
       },
       {
         "file": "src/assets/.gitkeep",
@@ -125,7 +197,7 @@
       },
       {
         "file": "src/index.html",
-        "hash": "8813775891167849242"
+        "hash": "16562461605920680043"
       },
       {
         "file": "src/main.server.ts",
@@ -133,7 +205,7 @@
       },
       {
         "file": "src/main.ts",
-        "hash": "4927504514031276065"
+        "hash": "8060102740304671444"
       },
       {
         "file": "src/styles.scss",
