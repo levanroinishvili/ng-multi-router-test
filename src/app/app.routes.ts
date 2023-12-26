@@ -24,6 +24,7 @@ export const routes: Routes = [
       {
         path: ':idBottom',
         outlet: 'bottom',
+        title: 'Bottom',
         component: FrameComponent,
       },
       {
@@ -45,5 +46,10 @@ export const routes: Routes = [
         ],
       },
     ],
+  },
+  {
+    path: ':xid',
+    outlet: 'two',
+    component: FrameComponent,
   },
 ];

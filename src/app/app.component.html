@@ -3,42 +3,69 @@
   <ul>
     <li><a [routerLink]="['/']">Home</a></li>
     <li>
+      <a [routerLink]="['/', { outlets: { primary: [], two: 'T' } }]"
+        >Simple Link</a
+      >
+    </li>
+    <li>
       <a
         [routerLink]="[
           '/',
-          'main',
-          { name: 'Main' },
           {
             outlets: {
               primary: [
-                'level1',
-                { name: 'MainLevel1' },
+                'main',
+                { name: 'Main' },
                 {
                   outlets: {
-                    primary: ['level2', { name: 'MainLevel2' }],
-                    left: ['Left', { name: 'LeftLevel2' }]
+                    primary: [
+                      'level1',
+                      { name: 'MainLevel1' },
+                      {
+                        outlets: {
+                          primary: ['level2', { name: 'MainLevel2' }],
+                          left: ['Left', { name: 'LeftLevel2' }]
+                        }
+                      }
+                    ],
+                    left: [
+                      'left1',
+                      { name: 'LeftLevel1' },
+                      {
+                        outlets: {
+                          primary: ['Left1M', { name: 'Left1Main' }],
+                          bottom: ['Left1B', { name: 'Left1Bottom' }]
+                        }
+                      }
+                    ],
+                    top: ['tt', { name: 'OvertheTop' }],
+                    bottom: ['bottom', { name: 'BottomLevel1' }]
                   }
                 }
               ],
-              left: [
-                'left1',
-                { name: 'LeftLevel1' },
-                {
-                  outlets: {
-                    primary: ['Left1M', { name: 'Left1Main' }],
-                    bottom: ['Left1B', { name: 'Left1Bottom' }]
-                  }
-                }
-              ],
-              top: ['tt', { name: 'OvertheTop' }],
-              bottom: ['bottom', { name: 'BottomLevel1' }]
+              two: ['t2', { name: 'TwoOther' }]
             }
           }
         ]"
         >Long link</a
       >
     </li>
+    <li>
+      <a [routerLink]="['/', { outlets: { primary: [] } }]"
+        >Reset Top Primary outlet</a
+      >
+    </li>
+    <li>
+      <a [routerLink]="['/', { outlets: { two: [] } }]"
+        >Reset top secondary outlet</a
+      >
+    </li>
   </ul>
 </nav>
 
-<router-outlet></router-outlet>
+<router-outlet />
+
+<div
+  style="margin-block-start: 16px; background-color: lightblue; padding: 8px">
+  <router-outlet name="two" />
+</div>
