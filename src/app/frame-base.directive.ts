@@ -18,12 +18,12 @@ export class FrameBaseDirective {
   );
 
   constructor() {
-    console.log('Outlet:', this.activatedRoute.outlet);
-    console.log('Component:', this.activatedRoute.component);
-    console.log('Path From Root:', this.activatedRoute.pathFromRoot);
-    console.log('Path From Root:', this.activatedRoute.url);
-    console.log('Route Config:', this.activatedRoute.routeConfig);
-    console.log('Snapshot:', this.activatedRoute.snapshot);
+    // console.log('Outlet:', this.activatedRoute.outlet);
+    // console.log('Component:', this.activatedRoute.component);
+    // console.log('Path From Root:', this.activatedRoute.pathFromRoot);
+    // console.log('Path From Root:', this.activatedRoute.url);
+    // console.log('Route Config:', this.activatedRoute.routeConfig);
+    // console.log('Snapshot:', this.activatedRoute.snapshot);
   }
 
   protected nonEmptyContent(obj: unknown) {

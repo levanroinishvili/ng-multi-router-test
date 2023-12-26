@@ -4,20 +4,28 @@ import { FrameComponent } from './frame/frame.component';
 export const routes: Routes = [
   {
     path: ':id',
-    component: FrameComponent,
+    loadComponent: () =>
+      import('./frame/frame.component').then(m => m.FrameComponent),
+    data: { location: '1-primary' },
     loadChildren: () => [
       {
         path: ':id',
-        component: FrameComponent,
+        data: { location: '1-primary->primary' },
+        loadComponent: () =>
+          import('./frame/frame.component').then(m => m.FrameComponent),
         loadChildren: () => [
           {
             path: ':id2_1',
-            component: FrameComponent,
+            data: { location: '1-primary->primary' },
+            loadComponent: () =>
+              import('./frame/frame.component').then(m => m.FrameComponent),
           },
           {
             path: ':id2:2',
             outlet: 'left',
-            component: FrameComponent,
+            data: { location: '1-primary->left' },
+            loadComponent: () =>
+              import('./frame/frame.component').then(m => m.FrameComponent),
           },
         ],
       },
@@ -25,23 +33,36 @@ export const routes: Routes = [
         path: ':idBottom',
         outlet: 'bottom',
         title: 'Bottom',
-        component: FrameComponent,
+        data: { location: '1-primary->bottom' },
+        loadComponent: () =>
+          import('./frame/frame.component').then(m => m.FrameComponent),
       },
       {
         path: ':idTop',
         outlet: 'top',
-        component: FrameComponent,
+        data: { location: '1-primary->top' },
+        loadComponent: () =>
+          import('./frame/frame.component').then(m => m.FrameComponent),
       },
       {
         path: ':lid',
         outlet: 'left',
-        component: FrameComponent,
+        data: { location: '1-primary->left' },
+        loadComponent: () =>
+          import('./frame/frame.component').then(m => m.FrameComponent),
         loadChildren: () => [
-          { path: ':vid', component: FrameComponent },
+          {
+            path: ':vid',
+            data: { location: '1-primary->left->primary' },
+            loadComponent: () =>
+              import('./frame/frame.component').then(m => m.FrameComponent),
+          },
           {
             path: ':bid',
             outlet: 'bottom',
-            component: FrameComponent,
+            data: { location: '1-primary->left->bottom' },
+            loadComponent: () =>
+              import('./frame/frame.component').then(m => m.FrameComponent),
           },
         ],
       },
@@ -49,6 +70,7 @@ export const routes: Routes = [
   },
   {
     path: ':xid',
+    data: { location: '1-Secondary' },
     outlet: 'two',
     component: FrameComponent,
   },
