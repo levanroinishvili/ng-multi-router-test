@@ -1,5 +1,6 @@
 import { ApplicationConfig, PLATFORM_ID } from '@angular/core';
 import {
+  NoPreloading,
   provideRouter,
   withComponentInputBinding,
   withPreloading,
@@ -23,10 +24,11 @@ export const appConfig: ApplicationConfig = {
     PreloadRandomApi,
     provideRouter(
       routes,
-      withRouterConfig({ onSameUrlNavigation: 'reload' }),
       withComponentInputBinding(),
-      withPreloading(PreloadRandomApi)
-      // withPreloading(PreloadAskUser),
+      withPreloading(PreloadAskUser),
+      withPreloading(PreloadRandomApi),
+      withPreloading(NoPreloading), // The latest works
+      withRouterConfig({ onSameUrlNavigation: 'reload' })
     ),
     provideClientHydration(),
   ],
