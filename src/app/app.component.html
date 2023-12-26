@@ -63,9 +63,14 @@
   </ul>
 </nav>
 
-<router-outlet />
-
 <div
   style="margin-block-start: 16px; background-color: lightblue; padding: 8px">
+  <h3>Secondary outlet</h3>
   <router-outlet name="two" />
+</div>
+<hr />
+
+<div>
+  <h2>Primary outlet</h2>
+  <router-outlet />
 </div>
