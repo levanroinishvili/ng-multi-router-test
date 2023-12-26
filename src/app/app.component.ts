@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FrameComponent } from './frame/frame.component';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'multi-root',
+  selector: 'rt-root',
   standalone: true,
-  imports: [CommonModule, FrameComponent, RouterLink, RouterLinkActive],
+  imports: [CommonModule, RouterOutlet, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class AppComponent {}
+export class AppComponent {
+  title = 'multi-router-outlet';
+}

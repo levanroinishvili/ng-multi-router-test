@@ -12,10 +12,5 @@
       "source.fixAll.eslint": true
     },
     "editor.formatOnSave": false
-  },
-  "[html][typescript]": {
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
-    }
   }
 }

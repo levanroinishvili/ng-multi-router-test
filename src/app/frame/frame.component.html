@@ -1,16 +1,27 @@
-<h1>Frame</h1>
+<h3>{{ headerS() }}</h3>
 
-<div class="sidebar-and-content">
-  <div class="content">
-    content
-    <router-outlet />
-  </div>
-  <div class="sidebar">
-    sidebar
-    <router-outlet name="sidebar" />
-  </div>
-</div>
+@if (nonEmptyContent(dataS()); as value) {
+  data:
+  <pre>{{ value | json }}</pre>
+}
+@if (nonEmptyContent(fragmentS()); as value) {
+  <p>fragment: {{ value }}</p>
+}
+@if (nonEmptyContent(queryParamsS()); as value) {
+  Query Parameters:
+  <pre>{{ value | json }}</pre>
+}
+@if (nonEmptyContent(paramsS()); as value) {
+  <pre>{{ value | json }}</pre>
+}
+@if (nonEmptyContent(urlS()); as value) {
+  <p>URL: {{ value }}</p>
+}
 
-<div class="popup">
-  <router-outlet name="popup" />
+<div class="frame">
+  <div class="content"><router-outlet /></div>
+  <div class="left"><router-outlet name="left" /></div>
+  <div class="right"><router-outlet name="right" /></div>
+  <div class="top"><router-outlet name="top" /></div>
+  <div class="bottom"><router-outlet name="bottom" /></div>
 </div>

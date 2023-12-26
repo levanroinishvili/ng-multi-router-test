@@ -1,25 +1,19 @@
-.sidebar-and-content {
+.frame {
+    margin: 8px;
     display: grid;
-    grid-template-columns: minmax(100px, 300px) 1fr;
-    grid-template-areas: "sidebar content";
-    column-gap: 8px;
-
+    grid-auto-columns: 1fr;
+    gap: 8px;
+    grid-template-areas:
+        "left top right"
+        "left content right"
+        "left bottom right";
+    & > .top { grid-area: top; }
+    & > .bottom { grid-area: bottom; }
+    & > .left { grid-area: left; }
+    & > .right { grid-area: right; }
+    & > .content { grid-area: content; }
     & > * {
+        border: thin dashed grey;
         padding: 8px;
     }
-    .sidebar {
-        grid-area: sidebar;
-        background-color: lightblue;
-    }
-    .content {
-        grid-area: content;
-    }
-}
-
-.popup {
-    position: fixed;
-    bottom: 8px;
-    right: 8px;
-    border: thin dashed grey;
-    padding: 8px;
 }

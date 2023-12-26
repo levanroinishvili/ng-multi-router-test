@@ -1,31 +1,44 @@
-<div
-  style="
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: max-content;
-    column-gap: 8px;
-  ">
-  <a [routerLink]="['/', { outlets: { primary: [], sidebar: [] } }]">Home</a>
-  <a routerLink="/">Home</a>
-  <a [routerLink]="['/', 'view', 'joke']">View Joke</a>
-  <a [routerLink]="['/', 'view', 'joke', 'analysis']">Analysis</a>
+<h1>Routing Test</h1>
+<nav>
+  <ul>
+    <li><a [routerLink]="['/']">Home</a></li>
+    <li>
+      <a
+        [routerLink]="[
+          '/',
+          'main',
+          { name: 'Main' },
+          {
+            outlets: {
+              primary: [
+                'level1',
+                { name: 'MainLevel1' },
+                {
+                  outlets: {
+                    primary: ['level2', { name: 'MainLevel2' }],
+                    left: ['Left', { name: 'LeftLevel2' }]
+                  }
+                }
+              ],
+              left: [
+                'left1',
+                { name: 'LeftLevel1' },
+                {
+                  outlets: {
+                    primary: ['Left1M', { name: 'Left1Main' }],
+                    bottom: ['Left1B', { name: 'Left1Bottom' }]
+                  }
+                }
+              ],
+              top: ['tt', { name: 'OvertheTop' }],
+              bottom: ['bottom', { name: 'BottomLevel1' }]
+            }
+          }
+        ]"
+        >Long link</a
+      >
+    </li>
+  </ul>
+</nav>
 
-  <a
-    [routerLink]="[
-      '/',
-      {
-        outlets: {
-          primary: ['view', 'joke'],
-          popup: ['chat'],
-          sidebar: [
-            'menu',
-            'super-user',
-            { outlets: { primary: ['warning'], footer: ['footer'] } }
-          ]
-        }
-      }
-    ]"
-    >Complex</a
-  >
-</div>
-<multi-frame />
+<router-outlet></router-outlet>

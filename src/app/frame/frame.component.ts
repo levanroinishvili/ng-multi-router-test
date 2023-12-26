@@ -1,12 +1,13 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { FrameBaseDirective } from '../frame-base.directive';
+import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'multi-frame',
+  selector: 'rt-frame',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [CommonModule, RouterOutlet],
   templateUrl: './frame.component.html',
   styleUrl: './frame.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class FrameComponent {}
+export class FrameComponent extends FrameBaseDirective {}

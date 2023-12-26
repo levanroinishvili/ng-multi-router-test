@@ -23,45 +23,45 @@
       "type": "npm",
       "name": "npm:@angular-devkit/architect",
       "data": {
-        "version": "0.1700.7",
+        "version": "0.1700.8",
         "packageName": "@angular-devkit/architect",
-        "hash": "sha512-32uitQKsYLGXAKoXBsmOnPsTt9pS+b9cnFI9ZvBFVhJ31I2EOM7vGcMFalhTxdB/DkVHk4TyO78efV0V26DwCA=="
+        "hash": "sha512-SWVr3CvwO6T0yW2ytszCwBT1g92vyFkwbVUxqE93urYnoD8PvP+81GH5YwVjHQTgvhP4eXQMGZ9hpHx57VOrWQ=="
       }
     },
     "npm:@angular-devkit/build-angular": {
       "type": "npm",
       "name": "npm:@angular-devkit/build-angular",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular-devkit/build-angular",
-        "hash": "sha512-AtEzLk6n6BXqQzk0Bsupe6GV0IgUe7RbpBfqROi+NZqMA7OUAHCX3xA6M68Qu+5KxBtW7T5lHeZZ7iP/y39wtQ=="
+        "hash": "sha512-u7R5yX92ZxOL/LfxiKGGqlBo86100sJ5Rabavn8DeGtYP8N0qgwCcNwlW2zaMoUlkw2geMnxcxIX5VJI4iFPUA=="
       }
     },
     "npm:@angular-devkit/build-webpack": {
       "type": "npm",
       "name": "npm:@angular-devkit/build-webpack",
       "data": {
-        "version": "0.1700.7",
+        "version": "0.1700.8",
         "packageName": "@angular-devkit/build-webpack",
-        "hash": "sha512-B9Mg/qYDpE5my8PJ3VPQyRSUV0Oq1bFUzU8s0ZpqEZl1URKc04pm0LtLmebrMIcUZgDiGk0RHaD+O1E9IV/bdQ=="
+        "hash": "sha512-GA7QlCAlYB3uBkRaUYgIC/Vfajb9jMmouwYiAAEm34ZyP3ThFjdqsYd/A/exnuESt5o6Bh++C/PI34sV3lawRA=="
       }
     },
     "npm:@angular-devkit/core": {
       "type": "npm",
       "name": "npm:@angular-devkit/core",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular-devkit/core",
-        "hash": "sha512-vATobHo5O5tJba424hJfQWLb40GzvZPNsI74dcgSUTgrDph8ksmk5xB9OvEvf0INorQZ2IMphj/VIWj4/+JqSA=="
+        "hash": "sha512-gI8+SOwGUwr0WOlFrhLjohLolMzcguuoR0LTZEcGjdXvQyPgH4NDSRIIrfWCdu+ZVhfy76o3zQYdYc9QN8NrjQ=="
       }
     },
     "npm:@angular-devkit/schematics": {
       "type": "npm",
       "name": "npm:@angular-devkit/schematics",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular-devkit/schematics",
-        "hash": "sha512-BY11OkJkM3xyXcvyD7x5kGY/c8Ufd4AfPvI0D9imhVxbns45Q48b1DlvCQvSnCJ/s+OwnkrYb/Efa70ZiaGu8A=="
+        "hash": "sha512-syo814SVWfJvne448IijjZvpWbuqJsEutdNqHWLTewTfX2U3KrIAr/XRVcXQMuyMvLCDiuxjMgEJxOIP7mcIPw=="
       }
     },
     "npm:@angular-eslint/builder": {
@@ -185,108 +185,108 @@
       "type": "npm",
       "name": "npm:@angular/animations",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/animations",
-        "hash": "sha512-IjZjPGMxvi2a9o7fzjwNO44FvhTZlVSgcPtqM6Glq0+WVeQcnZxf1Onj68M/FGx2AunS8elRbrgPxTexVeSo7A=="
+        "hash": "sha512-iKJ2s4ZqVoGS9tSRBuuwYEWTV+Rw6b4zDY1rqiXvbZrpNRxfzYr6s+aYsLQQEindZ4hzxgp9j60FJ8aE/g4w6A=="
       }
     },
     "npm:@angular/cli": {
       "type": "npm",
       "name": "npm:@angular/cli",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/cli",
-        "hash": "sha512-oSa0GVAQNA7wFbLJYeaO3kV4iUcbKEqXDLxcIE8s1GfHddBOlXH2P1T4fXonCBl5qvV+joP0G0+fs7I0w2utZQ=="
+        "hash": "sha512-yZXYNLAFv9u2qypsVqtS+rRCsnjsIPYXr6TcI/r5buzOtC7UQ2lleYsWJqX47SsyGMk/o3gaYg5Bj2I5mmRDLA=="
       }
     },
     "npm:@angular/common": {
       "type": "npm",
       "name": "npm:@angular/common",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/common",
-        "hash": "sha512-bPPL6x0KOAOTxKSE2j4EWmEUOnqZYzOYiHzroa5b9UEyA9NvGkd9bm3zIxw8xcndRj1Ehcmvpi6KBLcYBBbWfg=="
+        "hash": "sha512-fFfwtdg7H+OkqnvV/ENu8F8KGfgIiH16DDbQqYY5KQyyQB+SMsoVW29F1fGx6Y30s7ZlsLOy6cHhgrw74itkSw=="
       }
     },
     "npm:@angular/compiler": {
       "type": "npm",
       "name": "npm:@angular/compiler",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/compiler",
-        "hash": "sha512-QHPuLti2c2tGZmOGZ0cfCHo4LxiHUkC27I0aZFDyQSSQqEI5obQGVlEREHysw0nsS3sYIcLvqcwcKcRtXlXtxQ=="
+        "hash": "sha512-48jWypuhBGTrUUbkz1vB9gjbKKZ3hpuJ2DUUncd331Yw4tqkqZQbBa/E3ei4IHiCxEvW2uX3lI4AwlhuozmUtA=="
       }
     },
     "npm:@angular/compiler-cli": {
       "type": "npm",
       "name": "npm:@angular/compiler-cli",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/compiler-cli",
-        "hash": "sha512-YnL38idjIYtl3BXYpv+sVJKWGbUjHT6eyQSQVAfO/1AwWqVa21K9hnE+Q37VmUKEcKFMnQembeuErA+KVsGI6A=="
+        "hash": "sha512-ny2SMVgl+icjMuU5ZM57yFGUrhjR0hNxfCn0otAD3jUFliz/Onu9l6EPRKA5Cr8MZx3mg3rTLSBMD17YT8rsOg=="
       }
     },
     "npm:@angular/core": {
       "type": "npm",
       "name": "npm:@angular/core",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/core",
-        "hash": "sha512-mEkelXkzEi6+A9GjdKOSGGzQAfo1iAjVTn6YsplNUeGE5JgDZYZ7sXGQqs0Lin7dzJxnPAgGjCOl7SpWLXIPSQ=="
+        "hash": "sha512-tzYsK24LdkNuKNJK6efF4XOqspvF/qOe9j/n1Y61a6mNvFwsJFGbcmdZMby4hI/YRm6oIDoIIFjSep8ycp6Pbw=="
       }
     },
     "npm:@angular/forms": {
       "type": "npm",
       "name": "npm:@angular/forms",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/forms",
-        "hash": "sha512-28BxRxEmgZIofGwVp6s2v3ri/kuWW+/EY/ZXhavlWKJEh4ATJl72k0RkRWNcQi4wnvn0Qb8tFdnVJnvRZvvKEw=="
+        "hash": "sha512-WZBHbMQjaSovAzOMhKqZN+m7eUPGfOzh9rKFKvj6UQLIJ9qSpEpqlvL0omU1z/47s3XXeLiBzomMiRfQISJvvw=="
       }
     },
     "npm:@angular/platform-browser": {
       "type": "npm",
       "name": "npm:@angular/platform-browser",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/platform-browser",
-        "hash": "sha512-bm9/wt51nc/MPjft/FlRNIgFSeLjDtfJOT7M32Rt6kOHhNKSK7ZTPWdMe9ahuHSbAhLzd0G/4NsT5sKrWSeVZg=="
+        "hash": "sha512-XaI+p2AxQaIHzR761lhPUf4OcOp46WDW0IfbvOzaezHE+8r81joZyVSDQPgXSa/aRfI58YhcfUavuGqyU3PphA=="
       }
     },
     "npm:@angular/platform-browser-dynamic": {
       "type": "npm",
       "name": "npm:@angular/platform-browser-dynamic",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/platform-browser-dynamic",
-        "hash": "sha512-OquwUX9fLWA2JUZW5Jm6atk0CPt0sA7Tg24eGLsr6g1XfTS7jRZprlGaa72NgPLnQVV6m84o/ZiNYS6yPmq1Gg=="
+        "hash": "sha512-BIXNKnfBZb8sdluQ7WIhIXFuVnsJJ0SV+aiMKzQ7B6XhWoAXZQnlvON2thydjIIVuCvaF3YmWTbILI2K8YZ2jQ=="
       }
     },
     "npm:@angular/platform-server": {
       "type": "npm",
       "name": "npm:@angular/platform-server",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/platform-server",
-        "hash": "sha512-ezEOqcPw/2Naqb+L0Qq1eVCnN5Wrd9ACBTlBny6eOvYh/SVcmZlU2vdPX4aUKKu/Mq5CHNAaHHqqfwKCoDYnBw=="
+        "hash": "sha512-1ePN6OhVtPXYfIh6oSJwiOdUk+T4puzH6rhAtHfaiEI3gAoAlz170RBZzcDKc6ow5kQ8zo1DPWc61/FbOJFFew=="
       }
     },
     "npm:@angular/router": {
       "type": "npm",
       "name": "npm:@angular/router",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/router",
-        "hash": "sha512-rUFPe1uDlYYw6+3Gq68czW7WxBH7zT/D3UsT1otqwUV4RnQQsVze4fIit9FqJh7tuP4y3WpB4XBNf7p7Oi6TJw=="
+        "hash": "sha512-ptphcRe1RG/mIS60R7ZPilkkrxautqB0sOhds3h5VP3g628G1a2HWzvnmvjEfpJWDMFivV32VJMMBtTLqGr+0Q=="
       }
     },
     "npm:@angular/ssr": {
       "type": "npm",
       "name": "npm:@angular/ssr",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@angular/ssr",
-        "hash": "sha512-CV7xJEHAZ6PaA866E9+gHtLit8Lv7uqg2AYnh51ct5Jl9am0CIjbnf9bPUFq0iiCPnZ3uB0FMMjkFDup3Kl1Og=="
+        "hash": "sha512-7dTP4kU8O50yKMeOQ/74nJgRnfyVaOMKOalzUktMRdZR4MKN9JfG1XfqiUVFK0V8UNGLrOGI+M004wAnm3DOtg=="
       }
     },
     "npm:@assemblyscript/loader": {
@@ -2192,9 +2192,9 @@
       "type": "npm",
       "name": "npm:@ngtools/webpack",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@ngtools/webpack",
-        "hash": "sha512-gwhUhpwXn0trwwKdSu9WlJbEcLt+s/2fPwoD9lZ0y3wXfrOogsfcNBJKeO5BZf1h+A3AWt7ePmgrZXSJM+865Q=="
+        "hash": "sha512-wx0XBMrbpDeailK2uIhp/ZVMC3GK3BWwJjUu5SbT4BFrcoi2Zd9/9m0RCBAY54UXLBCqKd+ih7pJ6JSvprZmWw=="
       }
     },
     "npm:@nodelib/fs.scandir": {
@@ -2552,9 +2552,9 @@
       "type": "npm",
       "name": "npm:@schematics/angular",
       "data": {
-        "version": "17.0.7",
+        "version": "17.0.8",
         "packageName": "@schematics/angular",
-        "hash": "sha512-d7QKmcKrM4owb/2bR7Ipf23roiNbvbD/x7reNhQAtKAPLSHJ3Ulkf1+Yv+dj+9f+K7y9SBviEUSrD27BQ9WaxQ=="
+        "hash": "sha512-1h5mwKFv1B/L5JWZ0mxnC4ms06iwnSi/w+GgRZPeM3P5BpuZuvAkFiClNnM55iLlQJXRQioPNLM3sOsz7spR6w=="
       }
     },
     "npm:@sigstore/bundle": {
@@ -2741,9 +2741,9 @@
       "type": "npm",
       "name": "npm:@types/eslint",
       "data": {
-        "version": "8.44.9",
+        "version": "8.56.0",
         "packageName": "@types/eslint",
-        "hash": "sha512-6yBxcvwnnYoYT1Uk2d+jvIfsuP4mb2EdIxFnrPABj5a/838qe5bGkNLFOiipX4ULQ7XVQvTxOh7jO+BTAiqsEw=="
+        "hash": "sha512-FlsN0p4FhuYRjIxpbdXovvHQhtlG05O1GG/RNWvdAxTboR438IOTwmrY/vLA+Xfgg06BTkP045M3vpFwTMv1dg=="
       }
     },
     "npm:@types/eslint-scope": {
@@ -2849,9 +2849,9 @@
       "type": "npm",
       "name": "npm:@types/qs",
       "data": {
-        "version": "6.9.10",
+        "version": "6.9.11",
         "packageName": "@types/qs",
-        "hash": "sha512-3Gnx08Ns1sEoCrWssEgTSJs/rsT2vhGP+Ja9cnnk9k4ALxinORlQneLXFeFKOTJMOeZUFD1s7w+w2AphTpvzZw=="
+        "hash": "sha512-oGk0gmhnEJK4Yyk+oI7EfXsLayXatCWPHary1MtcmbAifkobT9cM9yutG/hZKIseOU0MqbIwQ/u2nn/Gb+ltuQ=="
       }
     },
     "npm:@types/range-parser": {
@@ -4046,9 +4046,9 @@
       "type": "npm",
       "name": "npm:caniuse-lite",
       "data": {
-        "version": "1.0.30001570",
+        "version": "1.0.30001571",
         "packageName": "caniuse-lite",
-        "hash": "sha512-+3e0ASu4sw1SWaoCtvPeyXp+5PsjigkSt8OXZbF9StH5pQWbxEjLAZE3n8Aup5udop1uRiKA7a4utUk/uoSpUw=="
+        "hash": "sha512-tYq/6MoXhdezDLFZuCO/TKboTzuQ/xR5cFdgXPfDtM7/kchBO3b4VWghE/OAi/DV7tTdhmLjZiZBZi1fA/GheQ=="
       }
     },
     "npm:chardet": {
@@ -4582,13 +4582,13 @@
         "hash": "sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg=="
       }
     },
-    "npm:npm-run-path@5.1.0": {
+    "npm:npm-run-path@5.2.0": {
       "type": "npm",
-      "name": "npm:npm-run-path@5.1.0",
+      "name": "npm:npm-run-path@5.2.0",
       "data": {
-        "version": "5.1.0",
+        "version": "5.2.0",
         "packageName": "npm-run-path",
-        "hash": "sha512-sJOdmRGrY2sjNTRMbSvluQqg+8X7ZK61yvzBEIDhz4f8z1TZFYABsqjjCBd/0PUNE9M6QDgHJXQkGUEm7Q+l9Q=="
+        "hash": "sha512-W4/tgAXFqFA0iL7fk0+uQ3g7wkL8xJmx3XdK0VGb4cHW//eZTtKGvFBBoRKVTpY7n6ze4NL9ly7rgXcHufqXKg=="
       }
     },
     "npm:npm-run-path": {
@@ -4937,9 +4937,9 @@
       "type": "npm",
       "name": "npm:electron-to-chromium",
       "data": {
-        "version": "1.4.615",
+        "version": "1.4.616",
         "packageName": "electron-to-chromium",
-        "hash": "sha512-/bKPPcgZVUziECqDc+0HkT87+0zhaWSZHNXqF8FLd2lQcptpmUFwoCSWjCdOng9Gdq+afKArPdEg/0ZW461Eng=="
+        "hash": "sha512-1n7zWYh8eS0L9Uy+GskE0lkBUNK83cXTVJI0pU3mGprFsbfSdAc15VTFbo+A+Bq4pwstmL30AVcEU3Fo463lNg=="
       }
     },
     "npm:emojis-list": {
@@ -5198,9 +5198,9 @@
       "type": "npm",
       "name": "npm:eslint-plugin-prettier",
       "data": {
-        "version": "5.0.1",
+        "version": "5.1.2",
         "packageName": "eslint-plugin-prettier",
-        "hash": "sha512-m3u5RnR56asrwV/lDC4GHorlW75DsFfmUcjfCYylTUs85dBRnB7VM6xG8eCMJdeDRnppzmxZVf1GEPJvl1JmNg=="
+        "hash": "sha512-dhlpWc9vOwohcWmClFcA+HjlvUpuyynYs0Rf+L/P6/0iQE6vlHW9l5bkfzN62/Stm9fbq8ku46qzde76T1xlSg=="
       }
     },
     "npm:eslint-visitor-keys": {
@@ -8069,9 +8069,9 @@
       "type": "npm",
       "name": "npm:postcss-modules-scope",
       "data": {
-        "version": "3.0.0",
+        "version": "3.1.0",
         "packageName": "postcss-modules-scope",
-        "hash": "sha512-hncihwFA2yPath8oZ15PZqvWGkWf+XUfQgUGamS4LqoP1anQLOsOJw0vr7J7IwLpoY9fatA2qiGUGmuZL0Iqlg=="
+        "hash": "sha512-SaIbK8XW+MZbd0xHPf7kdfA/3eOt7vxJ72IRecn3EzuZVLr1r0orzf0MX/pN8m+NMDoo6X/SQd8oeKqGZd8PXg=="
       }
     },
     "npm:postcss-modules-values": {
@@ -8087,9 +8087,9 @@
       "type": "npm",
       "name": "npm:postcss-selector-parser",
       "data": {
-        "version": "6.0.13",
+        "version": "6.0.14",
         "packageName": "postcss-selector-parser",
-        "hash": "sha512-EaV1Gl4mUEV4ddhDnv/xtj7sxwrwxdetHdWUGnT4VJQf+4d05v6lHYZr8N573k5Z0BViss7BDhfWtKS3+sfAqQ=="
+        "hash": "sha512-65xXYsT40i9GyWzlHQ5ShZoK7JZdySeOozi/tz2EezDo6c04q6+ckYMeoY7idaie1qp2dT5KoYQ2yky6JuoHnA=="
       }
     },
     "npm:postcss-value-parser": {
@@ -8969,9 +8969,9 @@
       "type": "npm",
       "name": "npm:synckit",
       "data": {
-        "version": "0.8.6",
+        "version": "0.8.7",
         "packageName": "synckit",
-        "hash": "sha512-laHF2savN6sMeHCjLRkheIU4wo3Zg9Ln5YOjOo7sZ5dVQW8yF5pPE5SIw1dsPhq3TRp1jisKRCdPhfs/1WMqDA=="
+        "hash": "sha512-Ic2DW4WMr0gJ7z9rXYGlWPNBVzmsIZLFfKeVhmuVBUtw6ZOFB1GZnCcWQLc7OuBFLVLHKFAdaIZNc/yyUEvZ1g=="
       }
     },
     "npm:tapable": {
@@ -15371,7 +15371,7 @@
       },
       {
         "source": "npm:execa@7.2.0",
-        "target": "npm:npm-run-path@5.1.0",
+        "target": "npm:npm-run-path@5.2.0",
         "type": "static"
       },
       {
@@ -15390,9 +15390,9 @@
         "type": "static"
       }
     ],
-    "npm:npm-run-path@5.1.0": [
+    "npm:npm-run-path@5.2.0": [
       {
-        "source": "npm:npm-run-path@5.1.0",
+        "source": "npm:npm-run-path@5.2.0",
         "target": "npm:path-key@4.0.0",
         "type": "static"
       }
@@ -15993,6 +15993,11 @@
       {
         "source": "npm:eslint-plugin-prettier",
         "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "npm:eslint-plugin-prettier",
+        "target": "npm:eslint-config-prettier",
         "type": "static"
       },
       {
