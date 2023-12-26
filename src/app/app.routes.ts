@@ -1,5 +1,4 @@
 import { Routes } from '@angular/router';
-import { FrameComponent } from './frame/frame.component';
 
 export const routes: Routes = [
   {
@@ -62,7 +61,7 @@ export const routes: Routes = [
             outlet: 'bottom',
             data: { location: '1-primary->left->bottom' },
             loadComponent: () =>
-              import('./frame/frame.component').then(m => m.FrameComponent),
+              import('./dummy/dummy.component').then(m => m.DummyComponent),
           },
         ],
       },
@@ -72,6 +71,13 @@ export const routes: Routes = [
     path: ':xid',
     data: { location: '1-Secondary' },
     outlet: 'two',
-    component: FrameComponent,
+    loadComponent: () =>
+      import('./frame/frame.component').then(m => m.FrameComponent),
+  },
+  {
+    path: 'never',
+    data: { location: '1-primary-only' },
+    loadComponent: () =>
+      import('./dummy/dummy.component').then(m => m.DummyComponent),
   },
 ];

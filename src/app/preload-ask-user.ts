@@ -18,9 +18,11 @@ export class PreloadAskUser implements PreloadingStrategy {
       new Promise<boolean>(resolve =>
         resolve(
           confirm(
-            `Preload route?\n\nRoute path: ${
-              route.path
-            }\n\nRoute data: ${JSON.stringify(route.data)}`
+            `Preload route into outlet "${
+              route.outlet ?? 'primary'
+            }"?\n\nRoute path: ${route.path}\n\nRoute data: ${JSON.stringify(
+              route.data
+            )}`
           )
         )
       )

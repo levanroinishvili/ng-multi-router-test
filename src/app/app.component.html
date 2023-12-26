@@ -4,7 +4,17 @@
     <li><a [routerLink]="['/']">Home</a></li>
     <li>
       <a [routerLink]="['/', { outlets: { primary: [], two: 'T' } }]"
-        >Simple Link</a
+        >Simple link</a
+      >
+    </li>
+    <li>
+      <a
+        [routerLink]="[
+          '/',
+          { outlets: { primary: ['never', { name: 'Never' }], two: ['T'] } }
+        ]"
+        queryParamsHandling="merge"
+        >Short link</a
       >
     </li>
     <li>
@@ -47,6 +57,7 @@
             }
           }
         ]"
+        [queryParams]="{ a: 1, b: 2 }"
         >Long link</a
       >
     </li>
@@ -60,6 +71,7 @@
         >Reset top secondary outlet</a
       >
     </li>
+    <li><a [routerLink]="['never']">never</a></li>
   </ul>
 </nav>
 
