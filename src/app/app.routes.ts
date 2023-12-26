@@ -3,11 +3,6 @@ import { FrameComponent } from './frame/frame.component';
 
 export const routes: Routes = [
   {
-    path: '',
-    loadComponent: () =>
-      import('./frame/frame.component').then(m => m.FrameComponent),
-  },
-  {
     path: ':id',
     component: FrameComponent,
     loadChildren: () => [
