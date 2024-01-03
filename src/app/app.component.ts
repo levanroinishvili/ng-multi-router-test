@@ -12,7 +12,7 @@ import { routes } from './app.routes';
 })
 export class AppComponent {
   constructor(private readonly router: Router) {
-    console.log(`Routs:`, unfoldRoutes(routes));
+    this.showRoutes();
   }
 
   protected go(route: string, asObject = false) {
@@ -37,29 +37,9 @@ export class AppComponent {
   }
 
   protected showRoutes() {
-    console.log(`Routs:`, unfoldRoutes(routes));
+    console.log(`Routs:`, routes);
   }
 }
-
-const unfoldRoutes = (routes: unknown): unknown => {
-  return Array.isArray(routes) ? routes.map(unfoldRoute) : routes;
-};
-
-const unfoldRoute = (route: unknown) => {
-  if (
-    route &&
-    typeof route === 'object' &&
-    'loadChildren' in route &&
-    typeof route.loadChildren === 'function'
-  ) {
-    return {
-      ...route,
-      loadChildren: unfoldRoutes(route.loadChildren()),
-    };
-  } else {
-    return route;
-  }
-};
 
 function showError(error: unknown, comment: string) {
   console.warn(comment);

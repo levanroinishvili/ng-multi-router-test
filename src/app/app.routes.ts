@@ -1,36 +1,33 @@
 import { Routes } from '@angular/router';
+import { DummyComponent } from './dummy/dummy.component';
+import { FrameComponent } from './frame/frame.component';
 
 export const routes: Routes = [
   {
     path: 'never',
     data: { location: '1-primary-only' },
-    loadComponent: () =>
-      import('./dummy/dummy.component').then(m => m.DummyComponent),
+    component: DummyComponent,
   },
   {
     path: ':id',
-    loadComponent: () =>
-      import('./frame/frame.component').then(m => m.FrameComponent),
+    component: FrameComponent,
     data: { location: '1-primary' },
-    loadChildren: () => [
+    children: [
       {
         path: ':id',
         data: { location: '1-primary->primary' },
-        loadComponent: () =>
-          import('./frame/frame.component').then(m => m.FrameComponent),
-        loadChildren: () => [
+        component: FrameComponent,
+        children: [
           {
             path: ':id2_1',
             data: { location: '1-primary->primary' },
-            loadComponent: () =>
-              import('./frame/frame.component').then(m => m.FrameComponent),
+            component: FrameComponent,
           },
           {
             path: ':id2:2',
             outlet: 'left',
             data: { location: '1-primary->left' },
-            loadComponent: () =>
-              import('./frame/frame.component').then(m => m.FrameComponent),
+            component: FrameComponent,
           },
         ],
       },
@@ -39,35 +36,30 @@ export const routes: Routes = [
         outlet: 'bottom',
         title: 'Bottom',
         data: { location: '1-primary->bottom' },
-        loadComponent: () =>
-          import('./frame/frame.component').then(m => m.FrameComponent),
+        component: FrameComponent,
       },
       {
         path: ':idTop',
         outlet: 'top',
         data: { location: '1-primary->top' },
-        loadComponent: () =>
-          import('./frame/frame.component').then(m => m.FrameComponent),
+        component: FrameComponent,
       },
       {
         path: ':lid',
         outlet: 'left',
         data: { location: '1-primary->left' },
-        loadComponent: () =>
-          import('./frame/frame.component').then(m => m.FrameComponent),
-        loadChildren: () => [
+        component: FrameComponent,
+        children: [
           {
             path: ':vid',
             data: { location: '1-primary->left->primary' },
-            loadComponent: () =>
-              import('./frame/frame.component').then(m => m.FrameComponent),
+            component: FrameComponent,
           },
           {
             path: ':bid',
             outlet: 'bottom',
             data: { location: '1-primary->left->bottom' },
-            loadComponent: () =>
-              import('./dummy/dummy.component').then(m => m.DummyComponent),
+            component: DummyComponent,
           },
         ],
       },
@@ -77,7 +69,6 @@ export const routes: Routes = [
     path: ':xid',
     data: { location: '1-Secondary' },
     outlet: 'two',
-    loadComponent: () =>
-      import('./frame/frame.component').then(m => m.FrameComponent),
+    component: FrameComponent,
   },
 ];
