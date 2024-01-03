@@ -2,6 +2,12 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
   {
+    path: 'never',
+    data: { location: '1-primary-only' },
+    loadComponent: () =>
+      import('./dummy/dummy.component').then(m => m.DummyComponent),
+  },
+  {
     path: ':id',
     loadComponent: () =>
       import('./frame/frame.component').then(m => m.FrameComponent),
@@ -73,11 +79,5 @@ export const routes: Routes = [
     outlet: 'two',
     loadComponent: () =>
       import('./frame/frame.component').then(m => m.FrameComponent),
-  },
-  {
-    path: 'never',
-    data: { location: '1-primary-only' },
-    loadComponent: () =>
-      import('./dummy/dummy.component').then(m => m.DummyComponent),
   },
 ];

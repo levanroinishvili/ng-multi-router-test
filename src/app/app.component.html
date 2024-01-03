@@ -1,4 +1,25 @@
 <h1>Routing Test</h1>
+
+<input type="checkbox" #asObject id="asObject" /><label
+  for="asObject"
+  style="user-select: none"
+  >JavaScript Value</label
+>
+
+<div
+  style="
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+    column-gap: 8px;
+  ">
+  <textarea rows="3" placeholder="Route" #xroute>/</textarea>
+  <button (click)="go(xroute.value, asObject.checked)">Go</button>
+</div>
+<button (click)="showRoutes()" [style.margin-top.px]="16">
+  Log route config
+</button>
+
 <nav>
   <ul>
     <li><a [routerLink]="['/']">Home</a></li>
